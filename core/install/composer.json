@@ -1,5 +1,5 @@
 {
-    "name": "hakon/install",
+    "name": "HakonCMS/Plugin-Install",
     "description": "Hakon installation plugin",
     "license": "MIT",
     "authors": [
