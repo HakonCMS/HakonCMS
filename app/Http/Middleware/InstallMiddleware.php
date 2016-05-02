@@ -3,7 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Plugin\Hakon\Install\Controller\InstallController;
+use Core\Install\Controller\InstallController;
 
 class InstallMiddleware
 {

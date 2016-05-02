@@ -1,9 +1,9 @@
 <?php
 
-namespace Plugin\Hakon\Install\Middleware;
+namespace Core\Install\Middleware;
 
 use Closure;
-use Plugin\Hakon\Install\Controller\InstallController;
+use Core\Install\Controller\InstallController;
 
 class InstallCheck
 {

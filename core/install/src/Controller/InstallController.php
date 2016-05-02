@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugin\Hakon\Install\Controller;
+namespace Core\Install\Controller;
 
 use App\Http\Controllers\Controller;
 
