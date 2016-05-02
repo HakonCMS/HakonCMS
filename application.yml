@@ -4,10 +4,10 @@ project:
 plugins:
     providers:
         loaded:
-            - "Plugin\\Hakon\\Install\\Service\\InstallServiceProvider"
+            - "Core\\Install\\Service\\InstallServiceProvider"
     aliases:
         loaded:
-            pluginInstall: "Plugin\\Hakon\\Install\\Service\\InstallServiceProvider"
+            pluginInstall: "Core\\Install\\Service\\InstallServiceProvider"
 
 templates:
     loaded: "default"
