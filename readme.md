@@ -26,6 +26,14 @@ Example:
 {{ Html::Hook("Core::Template::Menu::Before") }}
 ```
 
+## Troubleshooting
+
+At this time this project is still under development and as such may contain a lot of bugs and unfinished features.
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Hakon CMS, please send an e-mail to hakoncms@efuzyon.com. All security vulnerabilities will be promptly addressed.
+
 ## Licenses
 
 The Hakon CMS is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
