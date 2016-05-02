@@ -1,0 +1,13 @@
+{
+    "name": "HakonCMS/Plugin-Dashboard",
+    "description": "Hakon dashboard plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leandro Sanches",
+            "email": "leandro.sanches@efuzyon.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
