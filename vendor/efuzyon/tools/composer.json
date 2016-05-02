@@ -1,0 +1,28 @@
+{
+	"name": "efuzyon/tools",
+	"type": "library",
+    "description": "eFuzyon Project",
+    "keywords": ["helper", "library", "lib"],
+    "homepage": "https://github.com/eFuzyon/tools",
+    "license": "MIT",
+	"authors": [
+		{
+			"name": "Leandro Sanches",
+			"email": "leandro.sanches@efuzyon.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"eFuzyon\\": "classes/"
+		}
+	},
+	"minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.2-dev"
+        }
+    }
+}

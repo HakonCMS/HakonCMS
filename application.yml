@@ -1,0 +1,16 @@
+project:
+    name: "Hakon CMS"
+    
+plugins:
+    providers:
+        loaded:
+            - "Plugin\\Hakon\\Install\\Service\\InstallServiceProvider"
+    aliases:
+        loaded:
+            pluginInstall: "Plugin\\Hakon\\Install\\Service\\InstallServiceProvider"
+
+templates:
+    loaded: "default"
+
+installation:
+    status: "OK"

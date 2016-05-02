@@ -1,0 +1,35 @@
+---
+server:
+    install: '1'
+    packages: [vim, git, htop, imagemagick]
+    timezone: America/Sao_Paulo
+    locale: en_US.UTF-8
+vagrant_local:
+    install: '1'
+    vm: { base_box: trusty64, hostname: hakondev, ip: 192.168.0.243, memory: '512', sharedfolder: ./project/, syncType: '0' }
+nginx:
+    install: '1'
+    docroot: /hakon
+    servername: hakon.dev
+mysql:
+    install: '1'
+    root_password: root
+    database: hakon
+    user: hakon
+    password: hakon
+    dump: ''
+redis:
+    install: '1'
+    port: '6379'
+rabbitmq:
+    install: '1'
+    user: hakon
+    password: hakon
+php:
+    install: '1'
+    ppa: php5-5.6
+    packages: [php5-cli, php5-intl, php5-mcrypt, php-pear, php5-curl, php5-imagick, php5-cgi, php5-common, php5-fpm, php5-gd, php5-geoip, php5-mbstring, php5-mysql, php5-xdebug, php5-xsl]
+    peclpackages: [mongo, redis]
+composer:
+    install: '1'
+
