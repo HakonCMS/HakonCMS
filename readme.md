@@ -1,4 +1,4 @@
-# eFuzyon: Hakon CMS
+# Hakon CMS
 
 ![License](https://img.shields.io/badge/Build-None-red.svg)
 ![Build Status](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -26,6 +26,10 @@ Example:
 {{ Html::Hook("Core::Template::Menu::Before") }}
 ```
 
-## License
+## Licenses
 
-The "eFuzyon: Hakon CMS" is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The Hakon CMS is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+PHP and related libraries are distributed under the PHP License v3.01. Find out more at [PHP.net](http://www.php.net/license/3_01.txt)
