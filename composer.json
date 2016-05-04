@@ -20,8 +20,15 @@
         }
     ],
     "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/HakonCMS/Plugins"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
+        "HakonCMS/Plugins": "dev-master",
         "laravel/framework": "5.2.*",
         "efuzyon/tools": "1.0.*",
         "LaravelCollective/html": "^5.2"

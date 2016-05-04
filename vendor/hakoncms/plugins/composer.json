@@ -1,0 +1,33 @@
+{
+    "name": "hakoncms/plugins",
+    "description": "Hakon CMS - Plugins",
+    "keywords": [
+        "Hakon", 
+        "HakonCMS",
+        "CMS",
+        "Content Management System",
+        "Plugins",
+        "Plugin"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/HakonCMS/Plugins",
+    "support": {
+        "issues": "https://github.com/HakonCMS/Plugins/issues",
+        "source": "https://github.com/HakonCMS/Plugins"
+    },
+    "authors": [
+        {
+            "name": "Leandro Sanches",
+            "email": "contato@leandrosanches.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Install\\": "install/"
+        }
+    },
+    "minimum-stability": "dev"
+}

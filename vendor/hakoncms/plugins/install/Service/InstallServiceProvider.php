@@ -1,6 +1,6 @@
 <?php
 
-namespace Plugin\Hakon\Install\Service;
+namespace Core\Install\Service;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Events\Dispatcher;
@@ -26,7 +26,7 @@ class InstallServiceProvider extends ServiceProvider {
 		include __DIR__.'/../routes.php';
 
 		# Code
-		$this->app->make('Plugin\Hakon\Install\Controller\InstallController');
+		$this->app->make('Core\Install\Controller\InstallController');
 
 	}
 
