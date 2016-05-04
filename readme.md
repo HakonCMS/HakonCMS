@@ -1,14 +1,23 @@
 # Hakon CMS
 
-![License](https://img.shields.io/badge/Build-None-red.svg)
-![Build Status](https://img.shields.io/badge/License-MIT-blue.svg)
+![Build Status](https://img.shields.io/badge/Build-None-red.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Install
 
-To see it working, just run:
+You can clone this repository or create a project using [Composer](https://packagist.org/packages/hakoncms/hakoncms)
 
-```html
-php hakon start
+```
+$ composer create-project hakoncms/hakoncms -s dev
+```
+
+## Usage
+
+After the installation proccess you need to run:
+
+```
+$ php hakon start
+Laravel development server started on http://localhost:8000/
 ```
 
 ## Hooks
