@@ -3208,23 +3208,24 @@
         "source": {
             "type": "git",
             "url": "https://github.com/HakonCMS/Plugins.git",
-            "reference": "f12ae13961d5965e64f2b7d0a1a01510fbd4be18"
+            "reference": "7b9357807932adccc9c4afcc9b636ab75863a2b4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/HakonCMS/Plugins/zipball/f12ae13961d5965e64f2b7d0a1a01510fbd4be18",
-            "reference": "f12ae13961d5965e64f2b7d0a1a01510fbd4be18",
+            "url": "https://api.github.com/repos/HakonCMS/Plugins/zipball/7b9357807932adccc9c4afcc9b636ab75863a2b4",
+            "reference": "7b9357807932adccc9c4afcc9b636ab75863a2b4",
             "shasum": ""
         },
         "require": {
             "php": ">=5.5.9"
         },
-        "time": "2016-05-04 22:46:04",
+        "time": "2016-05-04 23:29:17",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Core\\Install\\": "install/"
+                "Core\\Install\\": "install/",
+                "Core\\Dashboard\\": "dashboard/"
             }
         },
         "license": [

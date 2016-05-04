@@ -66,6 +66,8 @@ return array(
     'Collective\\Html\\HtmlBuilder' => $vendorDir . '/laravelcollective/html/src/HtmlBuilder.php',
     'Collective\\Html\\HtmlFacade' => $vendorDir . '/laravelcollective/html/src/HtmlFacade.php',
     'Collective\\Html\\HtmlServiceProvider' => $vendorDir . '/laravelcollective/html/src/HtmlServiceProvider.php',
+    'Core\\Dashboard\\Controller\\DashboardController' => $vendorDir . '/hakoncms/plugins/dashboard/Controller/DashboardController.php',
+    'Core\\Dashboard\\Service\\DashboardServiceProvider' => $vendorDir . '/hakoncms/plugins/dashboard/Service/DashboardServiceProvider.php',
     'Core\\Install\\Controller\\InstallController' => $vendorDir . '/hakoncms/plugins/install/Controller/InstallController.php',
     'Core\\Install\\Middleware\\InstallCheck' => $vendorDir . '/hakoncms/plugins/install/Middleware/InstallCheck.php',
     'Core\\Install\\Service\\InstallServiceProvider' => $vendorDir . '/hakoncms/plugins/install/Service/InstallServiceProvider.php',

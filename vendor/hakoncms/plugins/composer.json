@@ -26,7 +26,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Core\\Install\\": "install/"
+            "Core\\Install\\": "install/",
+            "Core\\Dashboard\\": "dashboard/"
         }
     },
     "minimum-stability": "dev"
