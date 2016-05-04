@@ -13,7 +13,7 @@ $ composer create-project hakoncms/hakoncms -s dev
 
 ## Usage
 
-After the installation proccess you need to run:
+After the installation process you need to run:
 
 ```
 $ php hakon start
