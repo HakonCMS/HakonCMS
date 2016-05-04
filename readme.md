@@ -20,21 +20,6 @@ $ php hakon start
 Laravel development server started on http://localhost:8000/
 ```
 
-## Hooks
-
-Here's how you call a Hook from the template:
-
-```html
-{{ Html::Hook("Name::Of::The:Hook") }}
-```
-
-Example:
-
-
-```html
-{{ Html::Hook("Core::Template::Menu::Before") }}
-```
-
 ## Troubleshooting
 
 At this time this project is still under development and as such may contain a lot of bugs and unfinished features.
