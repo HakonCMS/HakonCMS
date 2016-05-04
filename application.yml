@@ -5,7 +5,7 @@ plugins:
     providers:
         loaded:
             - "Core\\Install\\Service\\InstallServiceProvider"
-            - "Core\\Dashboard\\Service\\InstallServiceProvider"
+            - "Core\\Dashboard\\Service\\DashboardServiceProvider"
     aliases:
         loaded:
             pluginInstall: "Core\\Install\\Service\\InstallServiceProvider"
