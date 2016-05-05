@@ -3,13 +3,17 @@
 ![Build Status](https://img.shields.io/badge/Build-None-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-## Install
+## Installation
 
-You can clone this repository or create a project using [Composer](https://packagist.org/packages/hakoncms/hakoncms)
+[PHP](https://php.net) 5.5.9+, a database server, and [Composer](https://getcomposer.org) are required.
 
-```
-$ composer create-project hakoncms/hakoncms -s dev
-```
+There are 3 ways of grabbing the code:
+  * Use GitHub: simply download the zip
+  * Use Git: `git clone git@github.com:HakonCMS/HakonCMS.git`
+  * Use Composer: 
+	```
+	$ composer create-project hakoncms/hakoncms -s dev
+	```
 
 ## Usage
 
