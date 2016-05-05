@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aa1a44f942450d32452595528debbe83",
-    "content-hash": "005d0813540c876b374a939d4c0553b1",
+    "hash": "4affaf48ff9f9472ef5e160447b69ea2",
+    "content-hash": "6b7fa91ccf046df430181a9b23e10a18",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -214,12 +214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HakonCMS/Plugins.git",
-                "reference": "7b9357807932adccc9c4afcc9b636ab75863a2b4"
+                "reference": "93a0c903f7ee2756bd0bde1005b5de9d4b2f4140"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HakonCMS/Plugins/zipball/7b9357807932adccc9c4afcc9b636ab75863a2b4",
-                "reference": "7b9357807932adccc9c4afcc9b636ab75863a2b4",
+                "url": "https://api.github.com/repos/HakonCMS/Plugins/zipball/93a0c903f7ee2756bd0bde1005b5de9d4b2f4140",
+                "reference": "93a0c903f7ee2756bd0bde1005b5de9d4b2f4140",
                 "shasum": ""
             },
             "require": {
@@ -255,7 +255,7 @@
                 "issues": "https://github.com/HakonCMS/Plugins/issues",
                 "source": "https://github.com/HakonCMS/Plugins"
             },
-            "time": "2016-05-04 23:29:17"
+            "time": "2016-05-05 00:52:09"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1927,6 +1927,45 @@
                 "environment"
             ],
             "time": "2016-04-15 10:48:49"
+        },
+        {
+            "name": "zurb/foundation",
+            "version": "6.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zurb/foundation-sites.git",
+                "reference": "7a6ed604689635ddda430ae46a100d30c415959b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zurb/foundation-sites/zipball/7a6ed604689635ddda430ae46a100d30c415959b",
+                "reference": "7a6ed604689635ddda430ae46a100d30c415959b",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ZURB, Inc.",
+                    "email": "foundation@zurb.com",
+                    "homepage": "http://zurb.com"
+                }
+            ],
+            "description": "The most advanced responsive front-end framework in the world.",
+            "homepage": "http://foundation.zurb.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "scss"
+            ],
+            "time": "2016-04-08 18:15:06"
         }
     ],
     "packages-dev": [
