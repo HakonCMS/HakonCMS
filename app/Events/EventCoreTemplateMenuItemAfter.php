@@ -15,9 +15,9 @@ class EventCoreTemplateMenuItemAfter extends Event
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($param=null)
     {
-        //
+        $this->param = $param;
     }
 
     /**
@@ -25,7 +25,7 @@ class EventCoreTemplateMenuItemAfter extends Event
      *
      * @return array
      */
-    public function broadcastOn()
+    public function broadcastOn($param=null)
     {
         return [];
     }
