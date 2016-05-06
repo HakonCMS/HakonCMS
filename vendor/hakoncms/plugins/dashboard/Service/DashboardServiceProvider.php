@@ -2,6 +2,7 @@
 
 namespace Core\Dashboard\Service;
 
+use App\Hooks as Hook;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Events\Dispatcher;
 
@@ -30,9 +31,13 @@ class DashboardServiceProvider extends ServiceProvider {
 
 	}
 
-	public function events($hooks = null){
+	public function events($events = null){
 
-		if ($hooks) :
+		if ($events) :
+
+			# Call Hook Object
+			$hook = new Hook\Handler;
+			$hook->events = $events;
 
 			# Include
 			include __DIR__.'/../hooks.php';
