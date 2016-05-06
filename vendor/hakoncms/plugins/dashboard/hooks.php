@@ -1,14 +1,20 @@
 <?php
 
     # Hooks
-    $hooks->listen("App\Events\EventCoreTemplateMenuBefore", function(){
-        echo view('dashboard::admin.menu.before');
-    });
-
     $hooks->listen("App\Events\EventCoreTemplateMenu", function(){
     	echo view('dashboard::admin.menu.menu');
     });
 
-    $hooks->listen("App\Events\EventCoreTemplateMenuAfter", function(){
-        echo view('dashboard::admin.menu.after');
+    $hooks->listen("App\Events\EventCoreTemplateMenuItemAfter", function($param=null){
+
+        if( isset($param) ):
+
+            if (current($param) == "dashboard") :
+
+                dump(123);
+
+            endif;
+
+        endif;
+
     });
