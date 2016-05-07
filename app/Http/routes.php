@@ -45,6 +45,7 @@ Route::group(['as' => 'hakon::', 'middleware' => 'hakonAuth'], function () {
 });
 
 # Dynamic Routes
+/*
 Route::group(['as' => 'hakon::', 'middleware' => 'web'], function () {
 
     Route::get('/hakon/{page}', 'Admin\Page@Selector')
@@ -58,3 +59,4 @@ Route::group(['as' => 'site::', 'middleware' => 'web'], function () {
         ->where('page', '(.*)');
 
 });
+*/
