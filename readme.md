@@ -39,3 +39,5 @@ The Hakon CMS is open-sourced software licensed under the [MIT license](http://o
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 PHP and related libraries are distributed under the PHP License v3.01. Find out more at [PHP.net](http://www.php.net/license/3_01.txt)
+
+AdminLTE is an open source project by Almsaeed Studio that is licensed under [MIT](http://opensource.org/licenses/MIT). Almsaeed Studio reserves the right to change the license of future releases.
