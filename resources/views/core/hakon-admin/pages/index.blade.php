@@ -20,13 +20,13 @@
             
             <div class="form-group ">
                 <div class="col-xs-12">
-                    <input name="username" class="form-control" type="text" required="" placeholder="Username">
+                    <input name="username" class="form-control" type="text" required="" placeholder="Username" value="hakoncms" />
                 </div>
             </div>
 
             <div class="form-group">
                 <div class="col-xs-12">
-                    <input name="password" class="form-control" type="password" required="" placeholder="Password">
+                    <input name="password" class="form-control" type="password" required="" placeholder="Password"  value="hakoncms" />
                 </div>
             </div>
 
