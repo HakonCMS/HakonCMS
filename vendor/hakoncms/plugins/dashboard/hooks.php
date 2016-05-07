@@ -16,3 +16,9 @@
         echo view('dashboard::admin.menu.menu');
 
     });
+
+    $hook->on("Core::Admin::Template::Content::Header", function ($param = null) {
+
+        echo view('dashboard::admin.content.header');
+
+    });
