@@ -1,63 +1,48 @@
 @include('core.hakon-admin.common.signin-header')
 
-<body>
-
-    <div class="account-pages"></div>
-    <div class="clearfix"></div>
-    <div class="wrapper-page">
-    	<div class=" card-box">
-            @if(isset($messages->error))
-                <div class="alert alert-danger">
-                    {!! $messages->error !!}
-                </div>
-            @endif
-        <div class="panel-heading"> 
-            <h3 class="text-center"> Sign In to <strong class="text-custom">{{ $application->project->name }}</strong></h3>
-        </div> 
-
-        <div class="panel-body">
-        <form class="form-horizontal m-t-20" action="{{ URL::Route('hakon::admin') }}" method="POST">
-            
-            <div class="form-group ">
-                <div class="col-xs-12">
-                    <input name="username" class="form-control" type="text" required="" placeholder="Username" value="hakoncms" />
-                </div>
+<body class="hold-transition login-page">
+<div class="login-box">
+    <div class="login-logo">
+        <a href="../../index2.html"><b>Hakon</b> CMS</a>
+    </div><!-- /.login-logo -->
+    @if(isset($messages->error))
+        <div class="alert alert-danger">
+            {!! $messages->error !!}
+        </div>
+    @endif
+    <div class="login-box-body">
+        <p class="login-box-msg">Sign in to start your session</p>
+        <form action="{{ URL::Route('hakon::admin') }}" method="post">
+            <div class="form-group has-feedback">
+                <input name="username" class="form-control" type="text" required="" placeholder="Username"
+                       value="hakoncms"/>
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
             </div>
-
-            <div class="form-group">
-                <div class="col-xs-12">
-                    <input name="password" class="form-control" type="password" required="" placeholder="Password"  value="hakoncms" />
-                </div>
+            <div class="form-group has-feedback">
+                <input name="password" class="form-control" type="password" required="" placeholder="Password"
+                       value="hakoncms"/>
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
-
-            <div class="form-group ">
-                <div class="col-xs-12">
-                    <div class="checkbox checkbox-primary">
-                        <input id="checkbox-signup"  name="remember" type="checkbox" value="on">
-                        <label for="checkbox-signup">
-                            Remember me
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="checkbox icheck">
+                        <label>
+                            <input type="checkbox"> Remember Me
                         </label>
                     </div>
-                    
-                </div>
+                </div><!-- /.col -->
+                <div class="col-xs-4">
+                    <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                </div><!-- /.col -->
             </div>
-            
-            <div class="form-group text-center m-t-40">
-                <div class="col-xs-12">
-                    <button class="btn btn-pink btn-block text-uppercase waves-effect waves-light" type="submit">Log In</button>
-                </div>
-            </div>
+        </form>
 
-            <div class="form-group m-t-30 m-b-0">
-                <div class="col-sm-12">
-                    <a href="{{ URL::route('hakon::passwordRecovery') }}" class="text-dark"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
-                </div>
-            </div>
-        </form> 
-        
-        </div>   
-        </div>                              
-        
-    </div>
+        <div class="social-auth-links text-center">
+            <hr/>
+            <a href="{{ URL::Route('hakon::passwordRecovery') }}">I forgot my password</a><br>
+        </div><!-- /.social-auth-links -->
+
+    </div><!-- /.login-box-body -->
+</div><!-- /.login-box -->
 
 @include('core.hakon-admin.common.signin-footer');
