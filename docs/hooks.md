@@ -54,5 +54,5 @@ $hookObj->on("test", function(){
 To use it, just call this Hook somewhere else:
 
 ```PHP
-new Hook\Handler("test");
+new Hook\Handler("test"); 
 ```
