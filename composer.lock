@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4e1126f308b421bb6b8aa5d0856de131",
-    "content-hash": "005d0813540c876b374a939d4c0553b1",
+    "hash": "33fb2b2ff184ebe92efc4fceb2152ac4",
+    "content-hash": "a81146c1b3776d038db5801b68cb8ea2",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -3152,7 +3152,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "hakoncms/plugins": 20
     },
