@@ -44,7 +44,7 @@
 
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Version</b> 1.0.0
+            <b>Version</b> {{ $application->project->version }}
         </div>
         <strong><a href="http://github.com/HakonCMS/HakonCMS/" target="_blank">Hakon CMS</a></strong>
         <small>created by <a href="http://github.com/efuzyon/" target="_blank">eFuzyon Technology</a></small>
