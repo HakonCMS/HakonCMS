@@ -16,4 +16,4 @@ templates:
     loaded: "default"
 
 installation:
-    status: "OK"
+    status: ~
