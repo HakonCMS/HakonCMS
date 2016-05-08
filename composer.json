@@ -31,8 +31,7 @@
         "HakonCMS/Plugins": "dev-master",
         "laravel/framework": "5.2.*",
         "efuzyon/tools": "1.0.*",
-        "LaravelCollective/html": "^5.2",
-        "zurb/foundation": "^6.2"
+        "LaravelCollective/html": "^5.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -62,10 +61,12 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
+            "composer dump-autoload -o",
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan optimize"
         ],
         "post-update-cmd": [
+            "composer dump-autoload -o",
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
         ]
