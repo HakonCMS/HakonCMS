@@ -214,12 +214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HakonCMS/Plugins.git",
-                "reference": "9bdf4d76e6c249e77640042aa8b9d239da2148ad"
+                "reference": "be4ed3278e555b19880c9f27f40a5fee3f83343b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HakonCMS/Plugins/zipball/9bdf4d76e6c249e77640042aa8b9d239da2148ad",
-                "reference": "9bdf4d76e6c249e77640042aa8b9d239da2148ad",
+                "url": "https://api.github.com/repos/HakonCMS/Plugins/zipball/be4ed3278e555b19880c9f27f40a5fee3f83343b",
+                "reference": "be4ed3278e555b19880c9f27f40a5fee3f83343b",
                 "shasum": ""
             },
             "require": {
@@ -252,7 +252,7 @@
                 "plugin",
                 "plugins"
             ],
-            "time": "2016-05-08 02:02:16"
+            "time": "2016-05-09 11:57:27"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -2215,7 +2215,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/80138299aadb590ce3fd0b75d30343fff9f8d0a8",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/7ca4182b3acbd19ebbf3ced4dfee12487d9c05aa",
                 "reference": "80138299aadb590ce3fd0b75d30343fff9f8d0a8",
                 "shasum": ""
             },

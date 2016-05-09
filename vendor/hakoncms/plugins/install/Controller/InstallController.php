@@ -147,6 +147,7 @@ class InstallController extends Controller
 
         # Let's run migration
         try {
+            Artisan::call('cache:clear');
             Artisan::call('migrate:rollback');
             Artisan::call('migrate');
         } catch(Exception $e){}
