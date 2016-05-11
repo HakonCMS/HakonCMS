@@ -214,12 +214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HakonCMS/Plugins.git",
-                "reference": "be4ed3278e555b19880c9f27f40a5fee3f83343b"
+                "reference": "2c980b6051fdf5137463fe86be1ab1b6b0546df7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HakonCMS/Plugins/zipball/be4ed3278e555b19880c9f27f40a5fee3f83343b",
-                "reference": "be4ed3278e555b19880c9f27f40a5fee3f83343b",
+                "url": "https://api.github.com/repos/HakonCMS/Plugins/zipball/2c980b6051fdf5137463fe86be1ab1b6b0546df7",
+                "reference": "2c980b6051fdf5137463fe86be1ab1b6b0546df7",
                 "shasum": ""
             },
             "require": {
@@ -252,7 +252,7 @@
                 "plugin",
                 "plugins"
             ],
-            "time": "2016-05-09 11:57:27"
+            "time": "2016-05-11 11:23:56"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -409,7 +409,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/4fd04b7fa632647a65e84a7d2dc8bc3394f9095e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/057d26a249b75f42c47b9b309477de3163a5bb53",
                 "reference": "4fd04b7fa632647a65e84a7d2dc8bc3394f9095e",
                 "shasum": ""
             },
@@ -1394,7 +1394,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/1eb9646fe5fbe2d81e0de21bc4e5951c2077bd92",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/710fdc71161656d48cff0d788c5c3a2886e4ee40",
                 "reference": "1eb9646fe5fbe2d81e0de21bc4e5951c2077bd92",
                 "shasum": ""
             },
@@ -1692,7 +1692,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/6ab6fd5ee754fb53a303a5621ae35f3afd5970ac",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/a6cd168310066176599442aa21f5da86c3f8e0b3",
                 "reference": "6ab6fd5ee754fb53a303a5621ae35f3afd5970ac",
                 "shasum": ""
             },
@@ -2000,7 +2000,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/120198f907231348a29cbcb362ec4d41ea22c1dc",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/191fc2b648e1b00ad4725fcae0ab0729537725c8",
                 "reference": "120198f907231348a29cbcb362ec4d41ea22c1dc",
                 "shasum": ""
             },
@@ -2517,7 +2517,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ac4dfb003d2d89e8f474fa15b0f9714ac1b45899",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cb07302bcc264a177461bd8112c73eb2cd19aed6",
                 "reference": "ac4dfb003d2d89e8f474fa15b0f9714ac1b45899",
                 "shasum": ""
             },
