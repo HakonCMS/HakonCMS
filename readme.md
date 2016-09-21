@@ -9,7 +9,7 @@
 
 There are 3 ways of grabbing the code:
   * Use GitHub: simply download the zip
-  * Use Git: `git clone git@github.com:HakonCMS/HakonCMS.git`
+  * Use Git: `git clone https://github.com/HakonCMS/HakonCMS.git`
   * Use Composer: 
 	```
 	$ composer create-project hakoncms/hakoncms -s dev
